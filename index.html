@@ -1,63 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Md Abu Noman</title>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-  />
-    <link rel="stylesheet" href="style.css" />
-  
-  </head>
-  <body>
-    <nav>
-      <div class="logo">
-        <img src="noman.jpg" alt="Md Abu Noman" />
-      </div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#project">Project</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <ul class="buttons">
-        <li>
-          <a
-            href="https://drive.google.com/file/d/18BiDZH4FbTv98COsza7ki_1yc7ThXzMX/view?usp=sharing"
-            target="_blank"
-            >Resume</a
-          >
-        </li>
-        <li><a href="#">Hire Me</a></li>
-      </ul>
-    </nav>
 
-    
-    <div class="landing-page content">
-      <h1>Hi, I'm Md Abu Noman</h1>
-      <h5>I design & Build things.</h5>
-      <button>
-        <a href="#about"><i class="fa-solid fa-angles-down"></i></a>
-      </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md Abu Noman</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <!-- nav section -->
+  <nav>
+    <div class="logo">
+      <img src="noman-logo.png" alt="Md Abu Noman" />
     </div>
-    <span class="content"></span>
-    <div id="about" >
-      <span class="f-about">
-      <div class="about-h-style">
-       <span class="line"></span> <h1>About me</h1><span class="line"></span>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <ul class="buttons">
+      <li>
+        <a href="https://drive.google.com/file/d/18BiDZH4FbTv98COsza7ki_1yc7ThXzMX/view?usp=sharing"
+          target="_blank">Resume</a>
+      </li>
+      <li><a href="#contact">Hire Me</a></li>
+    </ul>
+  </nav>
+
+  <!-- landing page section -->
+  <div id="home" class="landing-page content">
+    <h1>Hi, I'm Md Abu Noman</h1>
+    <h5>I design & Build things.</h5>
+    <button>
+      <a href="#about"><i class="fa-solid fa-angles-down"></i></a>
+    </button>
+  </div>
+
+  <!-- about section -->
+  <div id="about" class="content">
+    <span class="f-content">
+      <div class="h-style">
+        <span class="line"></span>
+        <h1>About me</h1><span class="line"></span>
       </div>
-      <div class="about-b-style">
-        <p>Hey there! I'm Md Abu Noman, a web developer who loves building awesome websites.<br><br>
-          I'm all about creating user-friendly and eye-catching sites that work smoothly on any device. From coding sleek designs to adding cool features, I enjoy bringing ideas to life in the digital world. <br><br>
-          
-          I'm always learning and keeping up with the latest tech trends to stay ahead of the game. Outside of coding, you can catch me snapping photos, reading, or sipping coffee. <br><br>
-          
-          Thanks for checking out my portfolio! Let's chat and see how we can work together on your next project.</p>
-        <img src="noman.jpg" alt="Md Abu Noman">
+      <span class="b-f">
+        <div class="about-b-style">
+          <p>Hey there! I'm Md Abu Noman, a web developer who loves building awesome websites.<br><br>
+            I'm all about creating user-friendly and eye-catching sites that work smoothly on any device. From coding
+            sleek designs to adding cool features, I enjoy bringing ideas to life in the digital world. <br><br>
+
+            I'm always learning and keeping up with the latest tech trends to stay ahead of the game. Outside of coding,
+            you can catch me snapping photos, reading, or sipping coffee. <br><br>
+
+            Thanks for checking out my portfolio! Let's chat and see how we can work together on your next project.</p>
+          <img src="noman.jpg" alt="Md Abu Noman">
+      </span>
+  </div>
+  </span>
+  </div>
+
+  <!-- project section -->
+
+  <div class="content" id="project">
+    <span class="f-content">
+      <div class="h-style">
+        <span class="line"></span>
+        <h1 class="pro-h1">Featured Projects</h1><span class="line"></span>
+      </div>
+      <div class="project-b-style">
+        <div class="container">
+          <div class="projects">
+            <div class="item">
+              <img src="TaskTracker.png" alt="Task Tracker">
+            </div>
+            <div class="item">
+              <div class="project-details">
+                <h2>Task Tracker</h2>
+                <ul>
+                  <li>A simple task tracker application</li>
+                  <li>Can add tasks and track the tasks</li>
+                  <li>The Front end was created with React js</li>
+                  <li>The back end was created with Express js</li>
+                  <li>Mongo DB was used as the database</li>
+                  <li>Rest API was used for retrieving data from the database</li>
+                </ul>
+                <div class="hr-line"></div>
+                <i>Tech stack: React, Express.js, Rest API, MongoDB, CSS</i><br>
+                <a href="https://github.com/M-A-Noman/Task_Tracker" target="_blank"><i
+                    class="fa-brands fa-github"></i><i style="font-size: small;"
+                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="projects">
+            <div class="item">
+              <div class="project-details">
+                <h2>Vehicle Validation System</h2>
+                <ul>
+                  <li>An online Vehicle Validation system</li>
+                  <li>Admin panel checks manually to update vehicle status and provide vehicle numbers for new vehicles.
+                    Also, the admin needs to login to access the admin panel</li>
+                  <li>Without login, no one can apply for vehicle registration.</li>
+                  <li>The front end was created with Html, Css, and Bootstrap. And the backend was handled by Php.</li>
+                  <li>Apace was used for the server</li>
+                  <li>Mysql was used as the database</li>
+                </ul>
+                <div class="hr-line"></div>
+                <i>Tech stack: Html, Css, Bootstrap, Php, Apace, MySql</i><br>
+                <a href="https://github.com/M-A-Noman/Vehicle-validation-system" target="_blank"><i
+                    class="fa-brands fa-github"></i><i style="font-size: small;"
+                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+              </div>
+            </div>
+            <div class="item">
+              <img src="vvs.png" alt="Vehicle Validation System">
+            </div>
+          </div>
+        </div>
       </div>
     </span>
-    </div>
   </div>
-  </body>
+
+  <!-- other projects section -->
+
+
+  <div class="content" id="project">
+    <span class="f-content">
+      <div class="h-style">
+        <span class="line"></span>
+        <h1 class="pro-h1">Other Projects</h1><span class="line"></span>
+      </div>
+      <div class="project-b-style">
+        <div class="container1">
+          <div class="projects1">
+            <div class="item">
+              <div class="inner-class">
+                <img src="project.png" alt="Project 1">
+
+                <div class="project-details1">
+                  <h2>Project 1</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, sapiente?</p>
+                  <div class="hr-line1"></div>
+                  <i>Tech stack: HTML, CSS, Bootstrap</i><br>
+                  <a href="https://github.com/M-A-Noman/Task_Tracker" target="_blank"><i
+                      class="fa-brands fa-github"></i><i style="font-size: small;"
+                      class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects1">
+            <div class="item">
+              <div class="inner-class">
+                <img src="project.png" alt="Project 1">
+
+                <div class="project-details1">
+                  <h2>Project 2</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, sapiente?</p>
+                  <div class="hr-line1"></div>
+                  <i>Tech stack: HTML, CSS, Bootstrap</i><br>
+                  <a href="https://github.com/M-A-Noman/Task_Tracker" target="_blank"><i
+                      class="fa-brands fa-github"></i><i style="font-size: small;"
+                      class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects1">
+            <div class="item">
+              <div class="inner-class">
+                <img src="project.png" alt="Project 1">
+
+                <div class="project-details1">
+                  <h2>Project 3</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, sapiente?</p>
+                  <div class="hr-line1"></div>
+                  <i>Tech stack: HTML, CSS, Bootstrap</i><br>
+                  <a href="https://github.com/M-A-Noman/Task_Tracker" target="_blank"><i
+                      class="fa-brands fa-github"></i><i style="font-size: small;"
+                      class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects1">
+            <div class="item">
+              <div class="inner-class">
+                <img src="project.png" alt="Project 1">
+
+                <div class="project-details1">
+                  <h2>Project 4</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, sapiente?</p>
+                  <div class="hr-line1"></div>
+                  <i>Tech stack: HTML, CSS, Bootstrap</i><br>
+                  <a href="https://github.com/M-A-Noman/Task_Tracker" target="_blank"><i
+                      class="fa-brands fa-github"></i><i style="font-size: small;"
+                      class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <!-- footer section -->
+  <footer id="contact">
+    <div class="contact-info">
+      <h3>Contact Me</h3>
+      <p><strong><i style="font-size:large;color: white;" class="fa-solid fa-phone"></i>:</strong> +8801732856985</p>
+      <p><strong><i class="fa-regular fa-envelope"></i>:</strong> <a href="mailto:mohammodabunoman@gmail.com">mohammodabunoman@gmail.com</a></p>
+      <p><strong><i
+        class="fa-brands fa-github"></i>:</strong> <a href="https://github.com/M-A-Noman" target="_blank">M-A-Noman</a></p>
+    </div>
+  </footer>
+  
+</body>
+
 </html>
