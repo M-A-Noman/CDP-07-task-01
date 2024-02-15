@@ -3,107 +3,7 @@
     padding: 2px;
 }
 
-/* .nav-bar-l{
-    height: 50%;
-    width: 50%;
-}
-.nav-bar-c{
-   
-    padding-left: 3%;
-}
-.nav-bar-r{
-    padding-left: 3%;
-}
-.nav-bar{
-    display: inline-block;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    
-}
-a:hover{
-    color:  rgb(77, 169, 199);
-    box-shadow: 8px 2px 8px rgb(93, 100, 107) ;
-} */
-
-/* nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-color: #f1f1f1;
-  }
-  
-  .logo {
-    margin-right: 1%;
-    flex-basis: auto;
-  }
-  
-  .logo img {
-    width: 20%;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    flex-grow: 1;
-  }
-  
-  .nav-links li {
-    margin-right: 2%;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #000;
-    padding: 1%;
-  }
-  
-  .nav-links a:hover {
-    background-color: #ddd;
-  }
-  
-  .cta-buttons {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    flex-basis:auto;
-  }
-  
-  .cta-buttons li {
-    margin-left: 2%;
-  }
-  
-  .cta-buttons a {
-    text-decoration: none;
-    color: #000;
-    padding: 1%;
-    border: 1px solid rgb(200, 195, 195);
-  }
-  
-  .cta-buttons a:hover {
-    background-color: #cccccc;
-  }
-  
-  
-  @media only screen and (max-width: 768px) {
-    .nav-links, .cta-buttons {
-      flex-direction: column;
-    }
-    .nav-links li {
-      margin-bottom: 1%;
-    }
-    .cta-buttons li {
-      margin-top: 1%;
-    }
-  }
-   */
-
+/* nav bar style */
    nav {
     display: flex;
     justify-content: space-between;
@@ -111,6 +11,8 @@ a:hover{
     padding: 10px;
     background-color: #f1f1f1;
     position:fixed;
+    top:0;
+    /* z-index: 3; */
     width: 98%;
   }
   
@@ -164,11 +66,17 @@ a:hover{
   .cta-buttons a:hover {
     background-color: #cccccc;
   }
+/* fixing other content below the nav bar */
+.content{
+  padding-top: 20vh;
+}
 
+
+/* landing page style */
 .landing-page{
     text-align: center;
     padding-top: 30vh;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     
 }
@@ -179,9 +87,44 @@ a:hover{
     font-size: 200%;
 }
 i.fa-solid {
-    font-size: 400%; 
+    font-size: 200%; 
     color: #494343; 
   
+  }
+
+  /* about page style */
+  #about{
+    padding-left: 8vw;
+    background-color: #dcd5d5;
+  }
+  .f-about{
+    
+    width: 80vw;
+    height: 75vh;
+   display: inline-block;
+    
+  }
+  .about-h-style{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    
+  }
+  .about-h-style h1{
+    display: inline-block;
+  }
+  .line{
+    width: 35%;
+    height: 1%;
+    background-color: black;
+  }
+
+  .about-b-style{
+    display: flex;
+  }
+  .about-b-style img{
+    height: 25vh;
   }
  
   
