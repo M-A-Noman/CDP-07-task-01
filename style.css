@@ -92,9 +92,10 @@
     font-size: 200%;
 }
 
-i.fa-solid {
-    font-size: 200%; 
-    color: #494343; 
+.fa-solid {
+    font-size: 200%;
+    padding-top: 1%; 
+    color: #000; 
 }
 
   /* common style  for about and project section*/
