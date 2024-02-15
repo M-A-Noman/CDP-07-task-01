@@ -38,11 +38,14 @@
   .nav-links a {
     text-decoration: none;
     color: #000;
+    
     padding: 1%;
   }
   
   .nav-links a:hover {
     background-color: #ddd;
+    padding: 5px;
+    
   }
   
   .buttons {
@@ -63,7 +66,7 @@
     border: 1px solid rgb(179, 174, 174);
   }
   
-  .cta-buttons a:hover {
+  .buttons a:hover {
     background-color: #cccccc;
   }
 /* fixing other content below the nav bar */
