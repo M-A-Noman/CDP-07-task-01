@@ -201,11 +201,11 @@ i.fa-solid {
   text-align: justify; 
 }
 
-@media screen and (min-width:300px )and (max-width:1100px){
+/* @media screen and (min-width:300px )and (max-width:1100px){
   .h-style{
     padding-top: 50vh;
   }
-}
+} */
 
 /* other project section style */
 .projects1{
