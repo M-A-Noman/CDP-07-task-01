@@ -311,7 +311,7 @@ nav {
   }
 
   .logo img {
-    width: 100%; /* Ensure logo takes full width on smaller screens */
+    width: 100%; 
   }
 
   .nav-links {
@@ -324,7 +324,7 @@ nav {
   }
 
   .nav-links a {
-    padding: 5px; /* Adjust padding for smaller links */
+    padding: 5px; 
   }
 
   .buttons {
@@ -337,15 +337,13 @@ nav {
   }
 
   .buttons a {
-    padding: 5px; /* Adjust padding for smaller buttons */
+    padding: 5px; 
   }
 
-  /* Adjust padding for content */
   .content {
     padding-top: 20vh;
   }
 
-  /* Adjust font sizes for landing page */
   .landing-page h1 {
     font-size: 200%; 
   }
@@ -358,16 +356,14 @@ nav {
     font-size: 150%;
   }
 
-  /* Adjust font sizes for about section */
   .about-b-style img {
     height: 15vh;
   }
 
   .b-f {
-    width: 100%; /* Adjust width for smaller screens */
+    width: 100%; 
   }
 
-  /* Adjust font sizes for project section */
   .pro-h1 {
     font-size: 2vh; 
   }
