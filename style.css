@@ -274,3 +274,110 @@ footer {
 .contact-info a:hover {
   color: #ffa500;
 }
+
+
+
+/* Original CSS code */
+
+* {
+  margin: 2px;
+  padding: 2px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  position: fixed;
+  top: 0;
+  width: 98%;
+}
+
+/* Add media queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+  /* Adjust nav bar for smaller screens */
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 5%;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .logo img {
+    width: 100%; /* Ensure logo takes full width on smaller screens */
+  }
+
+  .nav-links {
+    margin-bottom: 10px;
+  }
+
+  .nav-links li {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .nav-links a {
+    padding: 5px; /* Adjust padding for smaller links */
+  }
+
+  .buttons {
+    margin-left: 0;
+  }
+
+  .buttons li {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+
+  .buttons a {
+    padding: 5px; /* Adjust padding for smaller buttons */
+  }
+
+  /* Adjust padding for content */
+  .content {
+    padding-top: 20vh;
+  }
+
+  /* Adjust font sizes for landing page */
+  .landing-page h1 {
+    font-size: 200%; 
+  }
+
+  .landing-page h5 {
+    font-size: 150%; 
+  }
+
+  .fa-solid {
+    font-size: 150%;
+  }
+
+  /* Adjust font sizes for about section */
+  .about-b-style img {
+    height: 15vh;
+  }
+
+  .b-f {
+    width: 100%; /* Adjust width for smaller screens */
+  }
+
+  /* Adjust font sizes for project section */
+  .pro-h1 {
+    font-size: 2vh; 
+  }
+
+  .projects img {
+    width: 30vw;
+    height: auto;
+  }
+
+  .project-details {
+    padding-left: 0;
+  }
+}
