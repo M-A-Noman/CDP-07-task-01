@@ -214,7 +214,6 @@
   width: 30vw;
   padding-left: 8vw;
 }
-
 .projects1 a{
   text-decoration: none;
   color: #000;
@@ -245,6 +244,13 @@ footer {
   padding: 50px 0;
   color: #181818;
 }
+.cnt{
+  display: flex;
+}
+.cnt button:hover{
+  background-color: #5a5353;
+  color: #fff;
+}
 
 .contact-info {
   max-width: 600px;
@@ -274,6 +280,71 @@ footer {
 .contact-info a:hover {
   color: #ffa500;
 }
+
+
+/* feedback form */
+
+#contact {
+  background-color: #f4f4f4; 
+  padding: 1% 0; 
+  text-align: center;
+  
+}
+#cnt{
+  display: none;
+}
+
+#feedback {
+  display: none;
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+#feedback h1 {
+  font-size: 24px; 
+  margin-bottom: 20px;
+}
+
+#feedback form {
+  text-align: left; 
+}
+
+#feedback form input[type="text"],
+#feedback form input[type="email"],
+#feedback form textarea,
+#feedback form select {
+  width: 100%; 
+  margin-bottom: 15px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+}
+
+#feedback form input[type="radio"],
+#feedback form input[type="checkbox"] {
+  margin-right: 10px; 
+}
+
+#feedback form input[type="submit"],
+#feedback form input[type="reset"] {
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+#feedback form input[type="submit"]:hover,
+#feedback form input[type="reset"]:hover {
+  background-color: #d2dfd3; 
+  color: #000;
+}
+
+
+
 
 
 
