@@ -6,3 +6,6 @@ function form_show(){
     document.getElementById("cnt").style.display = 'none';
     document.getElementById("feedback").style.display = 'block';
 }
+function alert_() {
+    alert("Successfully sent the feedback");
+}

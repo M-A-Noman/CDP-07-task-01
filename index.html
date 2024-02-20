@@ -38,7 +38,7 @@
   <div id="home" class="landing-page content">
     <h1>Hi, I'm Md Abu Noman</h1>
     <h5>I design & Build things.</h5>
-      <a style="text-decoration: none;" href="#about"><i class="fa-sharp fa-solid fa-angles-down"></i></a>
+    <a style="text-decoration: none;" href="#about"><i class="fa-sharp fa-solid fa-angles-down"></i></a>
   </div>
 
   <!-- about section -->
@@ -213,15 +213,29 @@
 
   <!-- footer section -->
 
-  <footer id="contact" >
+  <footer id="contact">
     <div id="cnt">
-      <div class="contact-info"><h3>Contact Me</h3><p><strong><i style="font-size:large;color: rgb(16, 16, 16);" class="fa-solid fa-phone"></i>:</strong>+8801732856985</p><p><strong><i class="fa-regular fa-envelope"></i>:</strong> <a href="mailto:mohammodabunoman@gmail.com">mohammodabunoman@gmail.com</a></p><p><strong><i class="fa-brands fa-github"></i>:</strong> <a href="https://github.com/M-A-Noman"target="_blank">M-A-Noman</a></p><button onclick="form_show()">Send feedback</button></div>
+      <div class="contact-info">
+        <h3>Contact Me</h3>
+        <p><strong><i style="font-size:large;color: rgb(16, 16, 16);"
+              class="fa-solid fa-phone"></i>:</strong>+8801732856985</p>
+        <p><strong><i class="fa-regular fa-envelope"></i>:</strong> <a
+            href="mailto:mohammodabunoman@gmail.com">mohammodabunoman@gmail.com</a></p>
+        <p><strong><i class="fa-brands fa-github"></i>:</strong> <a href="https://github.com/M-A-Noman"
+            target="_blank">M-A-Noman</a></p><button onclick="form_show()">Send feedback</button>
+      </div>
     </div>
     <div id="feedback">
-      <h1>Feedback Form</h1><form onsubmit="return validateForm()">Your Name : <input type="text" name="Name" placeholder="Enter Your name here"><br><label for="gender">Gender</label><br><input type="radio" name="gender" value="male">Male<br><input type="radio" name="gender" value="female">Female  <br><br>email: <input type="email" name="mail" placeholder="abc@gmail.com" required><br>Comment :<br><textarea rows="6" cols="50" name="commentfield" placeholder="Give Your feedback" ></textarea><br><input type="submit" value="Send Feedback" onclick="contact();"><input type="reset" value="Reset"></form>
+      <h1>Feedback Form</h1>
+      <form onsubmit="return validateForm()">Your Name : <input type="text" name="Name"
+          placeholder="Enter Your name here"><br><label for="gender">Gender</label><br><input type="radio" name="gender"
+          value="male">Male<br><input type="radio" name="gender" value="female">Female <br><br>email: <input
+          type="email" name="mail" placeholder="abc@gmail.com" required><br>Comment :<br><textarea rows="6" cols="50"
+          name="commentfield" placeholder="Give Your feedback"></textarea><br><input type="submit" value="Send Feedback"
+          onclick="contact();alert_()"><input type="reset" value="Reset"></form>
     </div>
   </footer>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
